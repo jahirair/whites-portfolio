@@ -119,7 +119,7 @@ body{background:#ddd;}
     padding: 100px 0px;
     margin: 0 auto;
     text-align: center;}
-	
+.about_us_text,.services_text,.single_what_we_do_text,.contact_us_text{visibility: hidden;}	
 .about_us p,.services p,.single_what_we_do_text p,.contact_us p {
 	font-size: 20px;
 font-family: latoregular;
