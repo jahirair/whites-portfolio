@@ -251,23 +251,32 @@
 $(window).scroll(function(){
     if($(window).scrollTop() >= 950){
       $('.about_us_text').addClass('animated fadeInLeft');
+      $('.about_us_text').css({"visibility": "visible"});
+	  
     } else {
       $('.about_us_text').removeClass('animated fadeInLeft');
+	  $('.about_us_text').css({"visibility": "hidden"});
     }
-	if($(window).scrollTop() >= 1600){
+	if($(window).scrollTop() >= 1700){
       $('.services_text').addClass('animated fadeInRight');
+      $('.services_text').css({"visibility": "visible"});
     } else {
       $('.services_text').removeClass('animated fadeInRight');
+	  $('.services_text').css({"visibility": "hidden"});
     }
 	if($(window).scrollTop() >= 2400){
       $('.single_what_we_do_text').addClass('animated fadeInLeft');
+      $('.single_what_we_do_text').css({"visibility": "visible"});
     } else {
       $('.single_what_we_do_text').removeClass('animated fadeInLeft');
+	  $('.single_what_we_do_text').css({"visibility": "hidden"});
     }
-	if($(window).scrollTop() >= 5400){
+	if($(window).scrollTop() >= 5450){
       $('.contact_us_text').addClass('animated fadeInRight');
+      $('.contact_us_text').css({"visibility": "visible"});
     } else {
       $('.contact_us_text').removeClass('animated fadeInRight');
+	  $('.contact_us_text').css({"visibility": "hidden"});
     }
 	
 });
